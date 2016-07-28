@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.oshimygoshi.com.linearlayout.MainActivity"
+    android:background="#303030"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:text="@string/fbicon"
+                android:id="@+id/fbbtn"
+                android:layout_margin="1dp"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:textSize="40sp"
+                android:id="@+id/skypebtn"
+                android:text="@string/skypeicon"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:id="@+id/soundcloudbtn"
+                android:text="@string/soundcloudicon"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/unicon"
+                android:layout_margin="1dp"
+                android:textSize="40sp"
+                android:id="@+id/unibtn"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gmailicon"
+                android:id="@+id/gmailbtn"
+                android:textSize="40sp"
+                android:layout_margin="1dp"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:textSize="40sp"
+                android:id="@+id/twitterbtn"
+                android:text="@string/twittericon"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:textSize="40sp"
+                android:layout_weight="1"
+                android:id="@+id/tumblrbtn"
+                android:text="@string/tumblricon"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cloudicon"
+                android:id="@+id/cloudbtn"
+                android:textSize="40sp"
+                android:layout_margin="1dp"
+                android:textColor="#e2231b"
+                android:background="#1f1f1f" />
+        </LinearLayout> <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yahooicon"
+            android:layout_margin="1dp"
+            android:textSize="40sp"
+            android:id="@+id/yahoobtn"
+            android:textColor="#e2231b"
+            android:background="#1f1f1f" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:text="@string/instaicon"
+            android:id="@+id/instabtn"
+            android:textSize="40sp"
+            android:textColor="#e2231b"
+            android:background="#1f1f1f" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:text="@string/windowicon"
+            android:textSize="40sp"
+            android:id="@+id/windowbtn"
+            android:textColor="#e2231b"
+            android:background="#1f1f1f" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/plusicon"
+            android:textSize="40sp"
+            android:layout_margin="1dp"
+            android:id="@+id/plusbtn"
+            android:textColor="#e2231b"
+            android:background="#1f1f1f"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

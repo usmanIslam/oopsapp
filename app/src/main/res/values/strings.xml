@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Oops</string>
+    <string name="fbicon">&#xf09a;</string>
+    <string name="unicon">&#xf19d;</string>
+    <string name="soundcloudicon">&#xf1be;</string>
+    <string name="windowicon">&#xf17a;</string>
+    <string name="tumblricon">&#xf173;</string>
+    <string name="skypeicon">&#xf17e;</string>
+    <string name="instaicon">&#xf16d;</string>
+    <string name="gmailicon">&#xf1a0;</string>
+    <string name="yahooicon">&#xf19e;</string>
+    <string name="cloudicon">&#xf0ee;</string>
+    <string name="twittericon">&#xf099;</string>
+    <string name="plusicon">&#xf055;</string>
+    <string name="signouticon">&#xf08b;</string>
+</resources>

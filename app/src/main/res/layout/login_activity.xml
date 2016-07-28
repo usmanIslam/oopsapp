@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Not Need To Remember !"
+            android:textColor="#ffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:layout_marginTop="80dp"
+            android:hint="Enter Password"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:ems="1"
+            android:id="@+id/loginet"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#1f1f1f"
+            android:id="@+id/loginbtn"
+            android:text="Login"
+            android:onClick="loginfun"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:text="If you have not Accout ?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#e2231b"
+            android:layout_marginTop="20dp"
+            android:id="@+id/selectBothFS"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:onClick="SelectBoth"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        />
+
+    </LinearLayout>
+</LinearLayout>
